@@ -37,6 +37,6 @@ Now:
 ascii_range = 255 // (len(ascii_sheet) - 1)
 gray_map = gray_image // ascii_range
 ...
-gray_value = gray_map[y][x]
+gray_value = gray_map[i][j]
 ascii_sheet[gray_value]
 ```
