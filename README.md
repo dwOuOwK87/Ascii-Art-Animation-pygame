@@ -25,6 +25,7 @@ How I improved the speed of my program is to use numpy.
 the type of image is ndarray.  
 We can just divided it by a number, and it will work on all elements.  
 And it faster!  
+
 Previous:  
 ```
 index = int(image[i][j] / math.ceil(256/len(ascii_sheet)))
