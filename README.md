@@ -22,7 +22,7 @@ Download "Converter2.exe" and just open it.
 >Why I need to improve the speed is since that pygame can display more character than console. If I use the privious code, it will laggy.
 
 How I improved the speed of my program is to use numpy.   
-the type of image is ndarray.  
+the type of gray_image is ndarray.  
 We can just divided it by a number, and it will work on all elements.  
 And it faster!  
 
