@@ -12,7 +12,7 @@ pip install pygame
 ```
 
 ## Links
-[Video here.](https://youtu.be/fqHRjAfvBsY) 
+[Video here.](https://youtu.be/fqHRjAfvBsY)  
 For people who just want to easily use, exe file [here](https://drive.google.com/drive/folders/10Mv6SztT0jr-yEC20ksxw8jAXGUmQwd9?usp=sharing).  
 Download "Converter2.exe" and just open it.
 
