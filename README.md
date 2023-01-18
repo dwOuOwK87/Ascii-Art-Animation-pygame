@@ -27,6 +27,7 @@ We can just divided it by a number, and it will work on all elements.
 And it faster!  
 
 >Code below is not the same as the source code, I think it's much easy to understand and comparable.  
+
 Previous:  
 ```
 index = int(gray_image[i][j] / math.ceil(256/len(ascii_sheet)))
