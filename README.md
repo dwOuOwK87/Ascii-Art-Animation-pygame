@@ -26,16 +26,17 @@ the type of image is ndarray.
 We can just divided it by a number, and it will work on all elements.  
 And it faster!  
 
+>Code below is not the same as the source code, I think it's much easy to understand and comparable.
 Previous:  
 ```
-index = int(image[i][j] / math.ceil(256/len(ascii_sheet)))
+index = int(gray_image[i][j] / math.ceil(256/len(ascii_sheet)))
 ascii_sheet[index]
 ```
 Now:  
 ```
 ascii_range = 255 // (len(ascii_sheet) - 1)
-image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) // ascii_range
+gray_map = gray_image // ascii_range
 ...
-gray_value = image[y][x]
+gray_value = gray_map[y][x]
 ascii_sheet[gray_value]
 ```
